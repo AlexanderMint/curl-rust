@@ -10,9 +10,10 @@
 mod list;
 mod form;
 mod handle;
+mod handler;
 
 pub use self::list::{List, Iter};
 pub use self::form::{Form, Part};
 pub use self::handle::{Easy, Transfer, ProxyType, TimeCondition, IpResolve};
 pub use self::handle::{HttpVersion, SslVersion, InfoType, ReadError, WriteError};
-pub use self::handle::{NetRc, Auth, SslOpt};
+pub use self::handle::{NetRc, Auth, SslOpt, SeekResult};

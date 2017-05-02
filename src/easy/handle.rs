@@ -11,6 +11,9 @@ use curl_sys;
 use libc::{self, c_long, c_int, c_char, c_void, size_t, c_double, c_ulong};
 
 use Error;
+use easy::form;
+use easy::list;
+use easy::{Form, List};
 use panic;
 
 // TODO: checked casts everywhere
